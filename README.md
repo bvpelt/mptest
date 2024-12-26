@@ -124,14 +124,14 @@ Setup:
 
 ## Intellij
 
-| action      | command                                                                  | description                    |
-|-------------|--------------------------------------------------------------------------|--------------------------------|
-| test        | see [h2 test configuration](h2%20test%20configuration)                   | Test using h2 profile          |
-| test        | see [postgresql test configuration](postgresql%20test%20configuration)   | Test using postgresql profile  |
-| maven       | see [maven h2 configuration](maven%20h2%20configuration)                 | maven using h2 profile         |
-| maven       | see [maven postgresql configuration](maven%20postgresql%20configuration) | maven using postgresql profile |
-| spring-boot | see [maven h2 configuration](maven%20h2%20configuration)                 | maven using h2 profile         |
-| spring-boot | see [maven postgresql configuration](maven%20postgresql%20configuration) | maven using postgresql profile |
+| action      | command                                                                   | description                    |
+|-------------|---------------------------------------------------------------------------|--------------------------------|
+| test        | see [h2 test configuration](#h2%20test%20configuration)                   | Test using h2 profile          |
+| test        | see [postgresql test configuration](#postgresql%20test%20configuration)   | Test using postgresql profile  |
+| maven       | see [maven h2 configuration](#maven%20h2%20configuration)                 | maven using h2 profile         |
+| maven       | see [maven postgresql configuration](#maven%20postgresql%20configuration) | maven using postgresql profile |
+| spring-boot | see [maven h2 configuration](#maven%20h2%20configuration)                 | maven using h2 profile         |
+| spring-boot | see [maven postgresql configuration](#maven%20postgresql%20configuration) | maven using postgresql profile |
 
 ### h2 test configuration
 
@@ -159,7 +159,8 @@ After building a package the package should be started with:
 java -jar -DactiveProfile=h2 -Dspring.profiles.active=h2 ./target/my-spring-boot-app-0.0.1-SNAPSHOT.jar
 ```
 
-Profile: h2
+Profiles: h2
+
 Environment variables: activeProfile=h2
 
 ![image](./maven-h2-conf.png)
@@ -174,19 +175,20 @@ After building a package the package should be started with:
 java -jar -DactiveProfile=postgresql -Dspring.profiles.active=postgresql ./target/my-spring-boot-app-0.0.1-SNAPSHOT.jar
 ```
 
-Profile: postgresql
+Profiles: postgresql
+
 Environment variables: activeProfile=postgresql
 
 ![image](./maven-postgresql-conf.png)
 
 ### spring-boot h2 configuration
 
-Active profile: h2
+Active profiles: h2
 
 ![image](./springboot-h2-conf.png)
 
 ### spring-boot postgresql configuration
 
-Active profile: postgresql
+Active profiles: postgresql
 
 ![image](./springboot-postgresql-conf.png)
