@@ -61,9 +61,9 @@ public class MptestApplicationTests {
                 log.info("loadAdresses load adres: {}", adresses.get(i));
             }
 
-            adresses.forEach(adres ->{
+            adresses.forEach(adres -> {
                 adresRepository.save(adres);
-            } );
+            });
 
 
         } catch (Exception e) {
