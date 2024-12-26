@@ -124,14 +124,14 @@ Setup:
 
 ## Intellij
 
-| action      | command                                                                   | description                    |
-|-------------|---------------------------------------------------------------------------|--------------------------------|
-| test        | see [h2 test configuration](#h2%20test%20configuration)                   | Test using h2 profile          |
-| test        | see [postgresql test configuration](#postgresql%20test%20configuration)   | Test using postgresql profile  |
-| maven       | see [maven h2 configuration](#maven%20h2%20configuration)                 | maven using h2 profile         |
-| maven       | see [maven postgresql configuration](#maven%20postgresql%20configuration) | maven using postgresql profile |
-| spring-boot | see [maven h2 configuration](#maven%20h2%20configuration)                 | maven using h2 profile         |
-| spring-boot | see [maven postgresql configuration](#maven%20postgresql%20configuration) | maven using postgresql profile |
+| action      | command                                                               | description                    |
+|-------------|-----------------------------------------------------------------------|--------------------------------|
+| test        | see [h2 test configuration](#h2-test-configuration)                   | Test using h2 profile          |
+| test        | see [postgresql test configuration](#postgresql-test-configuration)   | Test using postgresql profile  |
+| maven       | see [maven h2 configuration](#maven-h2-configuration)                 | maven using h2 profile         |
+| maven       | see [maven postgresql configuration](#maven-postgresql-configuration) | maven using postgresql profile |
+| spring-boot | see [maven h2 configuration](#maven-h2-configuration)                 | maven using h2 profile         |
+| spring-boot | see [maven postgresql configuration](#maven-postgresql-configuration) | maven using postgresql profile |
 
 ### h2 test configuration
 
