@@ -124,14 +124,14 @@ Setup:
 
 ## Intellij
 
-| action      | command                                                               | description                    |
-|-------------|-----------------------------------------------------------------------|--------------------------------|
-| test        | see [h2 test configuration](#h2-test-configuration)                   | Test using h2 profile          |
-| test        | see [postgresql test configuration](#postgresql-test-configuration)   | Test using postgresql profile  |
-| maven       | see [maven h2 configuration](#maven-h2-configuration)                 | maven using h2 profile         |
-| maven       | see [maven postgresql configuration](#maven-postgresql-configuration) | maven using postgresql profile |
-| spring-boot | see [maven h2 configuration](#maven-h2-configuration)                 | maven using h2 profile         |
-| spring-boot | see [maven postgresql configuration](#maven-postgresql-configuration) | maven using postgresql profile |
+| action      | command                                                                         | description                    |
+|-------------|---------------------------------------------------------------------------------|--------------------------------|
+| test        | see [h2 test configuration](#h2-test-configuration)                             | Test using h2 profile          |
+| test        | see [postgresql test configuration](#postgresql-test-configuration)             | Test using postgresql profile  |
+| maven       | see [maven h2 configuration](#maven-h2-configuration)                           | maven using h2 profile         |
+| maven       | see [maven postgresql configuration](#maven-postgresql-configuration)           | maven using postgresql profile |
+| spring-boot | see [springboot h2 configuration](#springboot-h2-configuration)                  | maven using h2 profile         |
+| spring-boot | see [springboot postgresql configuration](#springboot-postgresql-configuration) | maven using postgresql profile |
 
 ### h2 test configuration
 
@@ -181,13 +181,13 @@ Environment variables: activeProfile=postgresql
 
 ![image](./maven-postgresql-conf.png)
 
-### spring-boot h2 configuration
+### springboot h2 configuration
 
 Active profiles: h2
 
 ![image](./springboot-h2-conf.png)
 
-### spring-boot postgresql configuration
+### springboot postgresql configuration
 
 Active profiles: postgresql
 
